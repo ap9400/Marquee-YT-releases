@@ -18,8 +18,10 @@ There is no source code here.
    [latest release](https://github.com/ap9400/Marquee-releases/releases/latest) and download
    `marquee-<version>-<code>.apk`.
 2. Open the file. If Android asks, allow your browser or file manager to install unknown apps.
-3. Tap **Install**. Play Protect may say the app is unrecognised: tap **More details → Install
-   without scanning** (or **Scan app**, which uploads it to Google).
+3. Tap **Install**. Google Play Protect doesn't know this app, so it may say **"App blocked to
+   protect your device"**. Tap **More details → Install anyway**. (Some phones instead show
+   "App scan recommended": tap **More details → Install without scanning**, or **Scan app**,
+   which uploads it to Google.)
 4. Open Marquee and sign in with your Google account.
 
 Optional: check the download against the `.sha256` file from the same release
@@ -29,6 +31,8 @@ Optional: check the download against the `.sha256` file from the same release
 
 Updates arrive in the app. Marquee checks this repository when it starts (and from
 **Settings → Check for updates**), offers a new version, downloads and verifies it, and then
-Android asks you to confirm the update. Your sign-in and downloads are kept.
+Android asks you to confirm the update (the first time, it asks you to allow Marquee to install
+apps, and Play Protect may show the same "Install anyway" step as above). Your sign-in and
+downloads are kept.
 
 Config fixes in `ota/` apply on their own, within a few hours or at the next start.
