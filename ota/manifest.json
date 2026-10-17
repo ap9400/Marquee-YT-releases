@@ -1,0 +1,10 @@
+{
+    "schema": 1,
+    "version": 2,
+    "minAppVersion": 1,
+    "bundle": "bundle-2.json",
+    "sha256": "ff38dd73cbf8cb85fb9988be80ec819999298fa09ab3ef715c884992c8045a30",
+    "size": 221197,
+    "signature": "W63EGipIGFg5DMo+cJySX0zMojLDajGKvGGflNlsKSWg806JyDcvJ0VXTcNv9mBuw+sEIlHEW5auRUUR1vLzAg==",
+    "keyId": "a1c734de79deb491"
+}
